@@ -36,7 +36,7 @@ public class Calculator {
     /* Chamando método para receber a soma dos pesos */
     int sumCheck = weigthSum(activitiesWeigth);
 
-    /* Requisito 4: a soma dos pesos deve ser 100 */
+    /* Requisito 3: a soma dos pesos deve ser 100 */
     if(sumCheck != 100) {
       System.out.println("A soma dos pesos é diferente de 100!");
     } else {
