@@ -33,18 +33,19 @@ public class Calculator {
       activitiesGrade[i - 1] = Integer.parseInt(scanner.nextLine());
     }
 
+    /* Chamando método para receber a soma dos pesos */
     int sumCheck = weigthSum(activitiesWeigth);
 
-    if(sumCheck < 3) {
-      System.out.println("menor que 3");
-    } else if (sumCheck > 3) {
-      System.out.println("maior que 3");
+    /* Requisito 4: a soma dos pesos deve ser 100 */
+    if(sumCheck != 100) {
+      System.out.println("A soma dos pesos é diferente de 100!");
     } else {
-      System.out.println("igual a 3");
+      System.out.println("Continue a implementar");
     }
   }
 
   public int weigthSum (int[] weigth) {
+    /* Lógica para somar o peso das notas */
     int sum = 0;
     for (int j : weigth) {
       sum += j;
