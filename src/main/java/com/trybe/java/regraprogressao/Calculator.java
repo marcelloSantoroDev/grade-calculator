@@ -42,6 +42,8 @@ public class Calculator {
     } else {
       System.out.println("Continue a implementar");
     }
+
+
   }
 
   public int weigthSum (int[] weigth) {
@@ -69,7 +71,15 @@ public class Calculator {
      deverá ser retornada pelo método.
 
     *  */
-    return 0.0;
+
+    double gradeAndWeigth = 0.0;
+    double totalWeigth = 0.0;
+
+    for (int i = 0; i < att.length; i++) {
+      gradeAndWeigth += att[i] * weigth[i];
+      totalWeigth += weigth[i];
+    }
+    return gradeAndWeigth / totalWeigth;
   }
 
 }
