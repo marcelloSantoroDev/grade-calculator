@@ -53,5 +53,24 @@ public class Calculator {
     return sum;
   }
 
+  public double studentGrade (int[] att, int[] weigth) {
+    /* Cálculo para nota: (peso1*nota1)+(peso2*nota2) / (peso1 + peso2)
+
+     eu terei que percorrer dois arrays: array de notas e array de pesos
+
+     o indíce da nota no array corresponde ao índice do seu peso no seu respetivo array
+
+     Sabendo a quantidade de atividades cadastradas, eu posso criar dois laços de repetição e acessar
+     as posições corretas de cada array. Em um dos laços, eu vou fazer "(peso1*nota1)+(peso2*nota2)" --
+     a multiplicação se dará no corpo do laço, e a soma será resultado de um incremento dentro da variável gradeAndWeigth.
+     O segundo laço será para "(peso1 + peso2)" usando a mesma lógica do primeiro laço.
+
+     Após os resultados terem sido armazenados nas suas respetivas variáveis, a divisão "(peso1*nota1)+(peso2*nota2) / (peso1 + peso2)"
+     deverá ser retornada pelo método.
+
+    *  */
+    return 0.0;
+  }
+
 }
 
