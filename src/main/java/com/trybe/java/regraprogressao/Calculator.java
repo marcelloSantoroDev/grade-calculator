@@ -32,6 +32,24 @@ public class Calculator {
       System.out.println("Digite a nota obtida para " + activitiesArr[i - 1] + ":");
       activitiesGrade[i - 1] = Integer.parseInt(scanner.nextLine());
     }
+
+    int sumCheck = weigthSum(activitiesWeigth);
+
+    if(sumCheck < 3) {
+      System.out.println("menor que 3");
+    } else if (sumCheck > 3) {
+      System.out.println("maior que 3");
+    } else {
+      System.out.println("igual a 3");
+    }
+  }
+
+  public int weigthSum (int[] weigth) {
+    int sum = 0;
+    for (int j : weigth) {
+      sum += j;
+    }
+    return sum;
   }
 
 }
