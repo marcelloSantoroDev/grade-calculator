@@ -3,8 +3,8 @@ package com.trybe.java.regraprogressao;
 /**
  * The type Student register.
  */
-public class StudentRegister {
-
+public class Calculator {
+  // Orientações:
   // instanciar scanner
   // digite quantidade de atividade
   // pegar a quantidade digitada e fazer um laço de repetição a partir desse número
