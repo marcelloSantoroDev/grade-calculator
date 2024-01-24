@@ -87,12 +87,12 @@ public class Calculator {
      o indíce da nota no array corresponde ao índice do seu peso no seu respetivo array
 
      Sabendo a quantidade de atividades cadastradas,
-     eu posso criar dois laços de repetição e acessar
+     eu posso criar um laço de repetição e acessar
      as posições corretas de cada array.
-     Em um dos laços, eu vou fazer "(peso1*nota1)+(peso2*nota2)" --
+     Dentro do laço, eu vou fazer "(peso1*nota1)+(peso2*nota2)" --
      a multiplicação se dará no corpo do laço,
      e a soma será resultado de um incremento dentro da variável gradeAndweight.
-     O segundo laço será para "(peso1 + peso2)" usando a mesma lógica do primeiro laço.
+     Abaixo, farei "(peso1 + peso2)" usando a mesma lógica para armazenar na variável totalWeight.
 
      Após os resultados terem sido armazenados nas suas respetivas variáveis,
      a divisão "(peso1*nota1)+(peso2*nota2) / (peso1 + peso2)"
